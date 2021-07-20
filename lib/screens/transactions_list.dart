@@ -39,7 +39,7 @@ class TransactionsList extends StatelessWidget {
                           ),
                         ),
                         subtitle: Text(
-                          transaction.contact.accountNumber.toString(),
+                          "[${transaction.contact.accountNumber.toString()}] - ${transaction.contact.name}",
                           style: TextStyle(
                             fontSize: 16.0,
                           ),
